@@ -40,9 +40,7 @@ public class Main {
 }
 // Coment
 package com.company;
-
-        import org.graalvm.compiler.debug.TTY;
-
+import org.graalvm.compiler.debug.TTY;
 public class Main {
 
     public static void main(String[] args) {
