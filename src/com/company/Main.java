@@ -38,7 +38,7 @@ public class Main {
 
     }
 }
-//// coment
+// Coment
 package com.company;
 
         import org.graalvm.compiler.debug.TTY;
@@ -46,4 +46,17 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hellow Razvan);
+        System.out.println("Hellow Razvan); "
+                // Rase De Caini
+                String rasa = "Amstaff";
+        String culoare = "Maro";
+        byte varsta = 8;
+        Float greutate = 20.5f;
+        char gen = 'f';
+        int nivelInteligenta = 1231232123;
+        long nivelEnegrie = 12345698454673189L;
+        double nivelNevoieAtentie = 12488558886465654745745676576583254646465430242042d
+        System.out.println("Despre Catelul Meu");
+
+    }
+}
