@@ -61,7 +61,7 @@ public class Main {
         int x = -5;
                 int y = 8*6;
                         float avrage = -x + y;
-                                System.out.println("numbers:"-x + y)
+                                System.out.println("numbers:"-x + y);
 
 
                                int x = 55;
