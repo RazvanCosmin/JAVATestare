@@ -32,7 +32,7 @@ public class Main {
                 int x = 2;
                         int y = 3;
                                 x+y;
-                float avrage = sum/2;
+                float avrage = x + y;
                 System.out.println(avrage);
         System.out.println("numbers:"+ x + y)
 
