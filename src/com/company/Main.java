@@ -62,5 +62,12 @@ public class Main {
                 int y = 8*6;
                         float avrage = -x + y;
                                 System.out.println("numbers:"-x + y)
+
+
+                               int x = 55;
+                                int x1 = 9;
+                                int y = 9;
+                                float avrage = x + x1;
+                                float percent = avrage y;
     }
 }
