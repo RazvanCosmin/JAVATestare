@@ -69,5 +69,7 @@ public class Main {
                                 int y = 9;
                                 float avrage = x + x1;
                                 float percent = avrage y;
+
+
     }
 }
