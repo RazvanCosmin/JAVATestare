@@ -29,8 +29,8 @@ public class Main {
                 System.out.println("culoare + varsta + greutate");
 
 
-                int x = 2
-                        int y = 3
+                int x = 2;
+                        int y = 3;
                                 x+y;
                 float avrage = sum/2;
                 System.out.println(avrage);
@@ -58,5 +58,9 @@ public class Main {
         double nivelNevoieAtentie = 12488558886465654745745676576583254646465430242042d
         System.out.println("Despre Catelul Meu");
 
+        int x = -5;
+                int y = 8*6;
+                        float avrage = -x + y;
+                                System.out.println("numbers:"-x + y)
     }
 }
