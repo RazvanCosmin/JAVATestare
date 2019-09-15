@@ -44,8 +44,10 @@ import org.graalvm.compiler.debug.TTY;
 public class Main {
 
     public static void main(String[] args) {
+
         System.out.println("Hellow Razvan); "
                 // Rase De Caini
+
                 String rasa = "Amstaff";
         String culoare = "Maro";
         byte varsta = 8;
@@ -66,7 +68,8 @@ public class Main {
                                 int x1 = 9;
                                 int y = 9;
                                 float avrage = x + x1;
-                                float percent = avrage y;
+
+                                System.setOut(avrage y);
 
 
     }
