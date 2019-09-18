@@ -69,7 +69,7 @@ public class Main {
                                 int y = 9;
                                 float avrage = x + x1;
 
-                                System.setOut(avrage y);
+                                System.setOut("avrage + y");
 
 
     }
