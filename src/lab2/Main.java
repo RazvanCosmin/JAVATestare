@@ -35,4 +35,19 @@ public class Main {
         int substract = first + second;
                 return substract;
     }
+    public class Main {
+
+        public static void main(String[] args) {
+
+            printMyName();
+
+        }
+
+        public static void printMyName(){
+
+            System.out.println("Hello \n Cosmin");
+
+        }
+
+    }
 }
