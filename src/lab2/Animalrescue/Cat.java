@@ -36,6 +36,13 @@ public class Cat {
     void doStuff(Cat B) {
 
         // use B in some way
+        Cat A = new Cat();
+        doStuff(A);
+
+        void doStuff(Cat B) {
+
+            B = new Cat(); //did NOT affect the A reference
+        }
     }
 
 }
