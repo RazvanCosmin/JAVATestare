@@ -50,4 +50,21 @@ public class Main {
         }
 
     }
+    public class Main {
+
+        public static void main(String[] args) {
+
+            System.out.println("Rezultatul adunarii este: " + adunare(2,3));
+
+        }
+
+        public static int adunare(int primulNumar, int alDoileaNumar){
+
+            int rezultat = primulNumar + alDoileaNumar;
+
+            return rezultat;
+
+        }
+
+    }
 }
