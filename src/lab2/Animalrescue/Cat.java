@@ -14,33 +14,6 @@ public class Cat {
         System.out.println("WoooofMiauuuuuu");
 
     }
-}
-{public  void run (){
-        System.out.println("Running");
-    }
 
-    public void  jump (){
-        System.out.println("jump");}
-
-    }
-    int x = 3;
-    int y = x;
-    x = y;
-    y = 34
-    x = 90;
-    int x = 5;
-    doStuff (x);
-    Cat A = new Cat();
-    doStuff(A);
-
-    void doStuff(Cat B) {
-
-        // use B in some way
-        Cat A = new Cat();
-        doStuff(A);
-
-        void doStuff(Cat B) {
-            B = new Cat(); //did NOT affect the A reference
-        }
     }
 
