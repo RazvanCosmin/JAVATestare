@@ -1,6 +1,6 @@
 package lab3.calculator;
 
-public class LogicalOp {
-    public int verifyGreaterNumber(int first, int second);
-        if
+public class CalculatorMain {
+    public int verifyTextAndNumber (int first, int second);
+
 }
