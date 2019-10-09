@@ -10,17 +10,17 @@ public class Cat {
     char gender = 'm';
     String name = "cainepisica";
 
-    public void bark (){
+    public void bark() {
         System.out.println("WoooofMiauuuuuu");
 
     }
-
-    public  void run (){
+}
+{public  void run (){
         System.out.println("Running");
     }
 
     public void  jump (){
-        System.out.println("jump");
+        System.out.println("jump");}
 
     }
     int x = 3;
@@ -40,9 +40,7 @@ public class Cat {
         doStuff(A);
 
         void doStuff(Cat B) {
-
             B = new Cat(); //did NOT affect the A reference
         }
     }
 
-}
