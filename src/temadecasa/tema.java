@@ -30,6 +30,21 @@ public  class tema {
 
     public static void printMyName(Java);{
         System.out.println("Hello \n Java");
+///////////////
+
+
+        public  class tema {
+
+            public static void Java(String[] args) {
+
+                printMyName(                 +"""""+
+                                            [! O  O !]
+                                             !      !
+                                             !      !
+                                             !      !
+                                             +______+
+                );
+            }
 
     }
 
