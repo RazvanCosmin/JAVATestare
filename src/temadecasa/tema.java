@@ -28,8 +28,8 @@ public  class tema {
         );
     }
 
-    public static void printMyName(Razvan);{
-        System.out.println("Hello \n Razvan");
+    public static void printMyName(Java);{
+        System.out.println("Hello \n Java");
 
     }
 
