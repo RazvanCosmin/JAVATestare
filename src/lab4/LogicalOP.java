@@ -32,7 +32,19 @@ public class LogicalOP {
             }
             return avrage/count;
         }
-
+        public void printDiversibile(int number){
+        for ( int i = number ; i <=100; i++)
+            System.out.println(i);
+        public void printDiversibile(int x){
+            float avrage = 1;
+            int count = 7;
+            while ( x <= 100){
+                sum = sum + x;
+                x++;
+                printDiversibile
+            }
+            }
+        }
 
     }
 
