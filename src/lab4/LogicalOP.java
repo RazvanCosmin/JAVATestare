@@ -45,10 +45,13 @@ public class LogicalOP {
         int count = 0;
         int sum = 0;
         while (x <= 100) {
-            if x = 7;
-            sum = sum + x;
+            if( x %7== 0){
+                sum = sum + x;
+                count ++;
+
+            }
+
             x++;
-            count ++;
                     }
     }
 }
