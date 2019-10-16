@@ -18,33 +18,40 @@ public class LogicalOP {
         }
         return (sum / count);
     }
+
     public void printCountNumber(int number) {
         for (int i = number; i <= 100; i++)
             System.out.println(i);
     }
-        public float getsumAndAvrage(int x){
-            float avrage = 1;
-            int count = 0;
-            while ( x <= 100) {
-                avrage = avrage + x;
-                x++;
-                count++;
-            }
-            return avrage/count;
-        }
-        public void printDiversibile(int number){
-        for ( int i = number ; i <=100; i++)
-            System.out.println(i);
-        public void printDiversibile(int x){
-            float avrage = 1;
-            int count = 7;
-            while ( x <= 100){
-                sum = sum + x;
-                x++;
-                printDiversibile
-            }
-            }
-        }
 
+    public float getsumAndAvrage(int x) {
+        float avrage = 1;
+        int count = 0;
+        while (x <= 100) {
+            avrage = avrage + x;
+            x++;
+            count++;
+        }
+        return avrage / count;
     }
+
+    public void printDiversibile(int number) {
+        for (int i = number; i <= 100; i++)
+            System.out.println(i);
+    }
+
+    public void printDive(int x) {
+        float avrage = 1;
+        int count = 0;
+        int sum = 0;
+        while (x <= 100) {
+            if x = 7;
+            sum = sum + x;
+            x++;
+            count ++;
+                    }
+    }
+}
+
+
 
