@@ -18,4 +18,19 @@ public class LogicalOP {
         }
         return (sum / count);
     }
-}
+    public void printCountNumber(int number) {
+        for (int i = number; i <= 100; i++)
+            System.out.println(i);
+    }
+        public float getsumAndAvrage(int x){
+            float avrage = 1;
+            int count = 0;
+            while ( x <= 100) {
+                avrage = avrage + x;
+                x++;
+                count++;
+            }
+            return avrage/count;
+        }
+    }
+
