@@ -32,5 +32,7 @@ public class LogicalOP {
             }
             return avrage/count;
         }
+
+
     }
 
