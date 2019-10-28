@@ -27,20 +27,14 @@ public class LogicalOp {
 
 
     {
-        // declares an Array of integers.
+
         int[] arr;
+             arr = new int[5];
+                arr[0] = 10;
 
-        // allocating memory for 5 integers.
-        arr = new int[5];
+                arr[1] = 20;
 
-        // initialize the first elements of the array
-        arr[0] = 10;
-
-        // initialize the second elements of the array
-        arr[1] = 20;
-
-        //so on...
-        arr[2] = 30;
+               arr[2] = 30;
         arr[3] = 40;
         arr[4] = 50;
 
