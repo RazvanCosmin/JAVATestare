@@ -14,6 +14,18 @@ public class Main {
             x[0]=1;
 
 
+
+public int [] removeNumberFromArrayy(int number, int[] array){
+    int[] secondArray = new int [myArry.length-1]
+int k = 0;}
+    for (int i = 0 ; i< array.length; i++){
+        if (array[i] == number ){
+            secondArray[k] = array[i];
+            k++;
+        }
+    }
+    return secondArray;
+            }
     }
 
 }
