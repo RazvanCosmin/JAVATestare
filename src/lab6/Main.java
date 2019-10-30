@@ -13,6 +13,6 @@ public class Main {
 
         myList.remove(Integer.valueOf(3));
         System.out.println(myList);
-        System.out.println(myList.contains();
+        System.out.println(myList.contains(8));
     }
     }
