@@ -20,7 +20,19 @@ public class Main {
         op.addToList(myList, 4);
 
         System.out.println(myList);
+
+
+
     }
 }
 
-
+public static void main(String[] args){
+    List<Integer> myList = new ArryList<>();
+    myList.add(2);
+    myList.add(4);
+    System.out.println(myList);
+    LogicalOp op = new LogicalOp()
+    op.addToList(myList,number:2);
+    System.out.println(myList);
+    myList.add(3,2);
+}
