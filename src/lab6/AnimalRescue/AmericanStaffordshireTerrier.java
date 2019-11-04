@@ -21,7 +21,13 @@ public class AmericanStaffordshireTerrier extends Dog {
 
     @Override
     public void Attack () {
-        System.out.println(Attack(Attack(Attack(););););
+        System.out.println(Attack("Bad People"));
+    }
+    @Override
+    public void  Catch(){
+        System.out.println(catch ("ball"));
+
+
     }
 }
 }
