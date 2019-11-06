@@ -1,5 +1,7 @@
 package lab5;
 
+import lab3.calculator.LogicalOp;
+
 import javax.swing.*;
 
 public class Main {

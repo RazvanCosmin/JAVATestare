@@ -10,6 +10,9 @@ public class LogicalOp {
 
         return "";
     }
+
+    public int[] getArrayHundred() {
+    }
 }
 
 
