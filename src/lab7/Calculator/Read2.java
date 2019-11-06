@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Read2 {
 
-    public class Read2 {
+    public class Read {
 
         public float getFloat() {
             float x = 0;
