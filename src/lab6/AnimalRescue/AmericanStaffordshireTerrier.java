@@ -1,35 +1,32 @@
-package lab6.AnimalRescue;{
+package lab6.AnimalRescue;
 
 public class AmericanStaffordshireTerrier extends Dog {
     @Override
     public void eat() {
-        System.out.println( eat("Roial Canin");
+        System.out.println("Roial Canin");
 
     }
 
     @Override
     public void speak() {
-        System.out.println(speak("Arr Ham Ham Ham Ham" ));
+        System.out.println("Arr Ham Ham Ham Ham" );
     }
 
 
-    @Override
-    public void Train () {
-        System.out.println(Train(1,2,3,4,5,6,));
+    public void train () {
+        System.out.println("1,2,3,4,5,6");
     }
 
 
-    @Override
-    public void Attack () {
-        System.out.println(Attack("Bad People"));
+    public void attack () {
+        System.out.println(("Bad People"));
     }
-    @Override
-    public void  Catch(){
-        System.out.println(catch ("ball"));
+    public void  fetch(){
+        System.out.println("ball");
 
 
     }
 }
-}
+
 
 

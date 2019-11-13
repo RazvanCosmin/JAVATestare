@@ -5,6 +5,5 @@ public class AppMain {
 
         Cat cainepisica = new Cat ();
         System.out.println(cainepisica.name);
-        cainepisica
     }
 }

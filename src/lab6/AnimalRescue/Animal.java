@@ -1,6 +1,6 @@
 package lab6.AnimalRescue;
 
-public class Animal {
+public abstract class Animal {
     private String name;
 
     public String getName() {

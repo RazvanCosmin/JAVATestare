@@ -1,20 +1,19 @@
 package lab6.AnimalRescue;
 
-public class Cat {
-    public class Cat extends Animal {
-        @Override
-        public void sleep() {
-            System.out.println("Purrrrrr...");
-        }
 
-        @Override
-        public void eat() {
+public class Cat extends Animal {
+    @Override
+    public void sleep() {
+        System.out.println("Purrrrrr...");
+    }
 
-        }
+    @Override
+    public void eat() {
 
-        @Override
-        public void speak() {
+    }
 
-        }
+    @Override
+    public void speak() {
+
     }
 }

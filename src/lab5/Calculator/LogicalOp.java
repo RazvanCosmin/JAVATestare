@@ -1,7 +1,7 @@
 package lab5.Calculator;
 
 public class LogicalOp {
-    public int[] getArrayHundred(){
+    public int[] getArrayHundred() {
         int[] myArray = new int[100];
         for (int i = 1; i <= 100; i++) {
             myArray[i - 1] = i;
@@ -9,64 +9,66 @@ public class LogicalOp {
         return myArray;
     }
 
-    public void printArray(int[] array){
+    public void printArray(int[] array) {
         for (int i = 0; i < array.length; i++)
             System.out.println("Pe pozitia " +
-                    (i ) + " avem valoarea " +
+                    (i) + " avem valoarea " +
                     array[i]);
     }
 
-    public float averageArray(int[] anArray){
+    public float averageArray(int[] anArray) {
         float sum = 0;
-        for (int i = 0; i < anArray.length; i++){
+        for (int i = 0; i < anArray.length; i++) {
             sum = sum + anArray[i];
 
         }
-        return sum/anArray.length;
+        return sum / anArray.length;
     }
 
 
     {
 
         int[] arr;
-             arr = new int[5];
-                arr[0] = 10;
+        arr = new int[5];
+        arr[0] = 10;
 
-                arr[1] = 20;
+        arr[1] = 20;
 
-               arr[2] = 30;
+        arr[2] = 30;
         arr[3] = 40;
         arr[4] = 50;
 
-                for (int i = 0; i < arr.length; i++)
+        for (int i = 0; i < arr.length; i++)
             System.out.println("Element at index " + i +
-                    " : "+ arr[i]);
+                    " : " + arr[i]);
 
-        int arr[][] = { {2,7,9},{3,6,1},{7,4,2} };
+        int arr2[][] = {{2, 7, 9}, {3, 6, 1}, {7, 4, 2}};
 
-          for (int i=0; i< 3 ; i++)
-        {
-            for (int j=0; j < 3 ; j++)
-                System.out.print(arr[i][j] + " ");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++)
+                System.out.print(arr2[i][j] + " ");
 
             System.out.println();
         }
+    }
 
-        public int [] removeNumberFromArrayy(int number, int[] array){
-        int[] secondArray = new int [myArry.length-1]
-        int k = 0;}
-        bolean found = false;
-        for (int i = 0 ; i< array.length; i++){
-            if (array[i] == number ){
+    public int[] removeNumberFromArrayy(int number, int[] array) {
+        int[] secondArray = new int[array.length - 1];
+        int k = 0;
+        boolean found = false;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == number) {
                 secondArray[k] = array[i];
                 k++;
-            }else{
-            } found = true;
-            if(found){
+            } else {
+            }
+            found = true;
+            if (found) {
                 return secondArray;
             }
+
         }
-    else
-        return arry
+        return array;
 
     }
+}

@@ -6,5 +6,5 @@ public class AppMain {
         lizzie.sleep();
 
         Pug freddie = new Pug();
-        freddie.sleep();
+    }
 }
